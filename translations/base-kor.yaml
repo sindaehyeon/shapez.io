@@ -783,7 +783,7 @@ settings:
         dev: 개발
         staging: 검증
         prod: 배포
-    buildDate: 날짜 <at-date>
+    buildDate: 제작 <at-date>
 
     rangeSliderPercentage: <amount> %
 
