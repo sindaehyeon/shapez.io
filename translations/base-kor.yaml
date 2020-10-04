@@ -1,9 +1,7 @@
 steamPage:
     shortText: shapez.io는 무한한 공간에서 점점 더 복잡한 도형의 생산과 조합을 자동화하는 공장을 짓는 게임입니다.
     discordLinkShort: 공식 Discord
-    intro: >-
-        자동화 게임을 좋아하시나요? 그렇다면 당신께 이 게임을 추천해 드립니다!
-        
+    intro: >-        
         Shapez.io는 다양한 기하학적 도형을 만드는 공장을 건설하는 편안한 게임입니다. 레벨이 올라갈수록 더욱 복잡한 도형을 만들어야 하고 그만큼 무한히 커지는 지도 안에 당신의 공장을 세워야 합니다.
 
         심지어 그것만으로는 충분하지 않을 겁니다. 수요는 기하급수적으로 늘어나게 될 것이고, 더욱 복잡한 도형을 더욱 많이 생산하여야 하므로, 유일하게 도움이 되는 것은 끊임없이 확장을 하는 것입니다! 처음에는 단순한 도형만을 만들지만, 나중에는 색소를 추출하고 혼합하여 도형에 색칠을 해야 합니다!
@@ -107,8 +105,8 @@ mainMenu:
     browserWarning: >-
         이 게임은 현재 당신의 브라우저에서 느리게 작동하는 것으로 알려져 있습니다! 더 좋은 성능을 위해 정식 버전을 구매하거나 Google Chrome 브라우저를 다운로드하세요.
 
-    savegameLevel: 레벨 <x>
-    savegameLevelUnknown: 레벨 모름
+    savegameLevel: <x> 레벨
+    savegameLevelUnknown: 레벨 미확인
     savegameUnnamed: 이름 없음
 
 dialogs:
@@ -381,11 +379,11 @@ ingame:
 
         points:
             levels:
-                title: 12개의 새로운 레벨
-                desc: 총 레벨이 26개로 확장됩니다!
+                title: 새로운 12 레벨
+                desc: 최대 26 레벨로 확장됩니다!
 
             buildings:
-                title: 18개의 건축물
+                title: 새로운 18개의 건축물
                 desc: 완벽한 자동화된 공장을 위한 건물들입니다!
 
             savegames:
@@ -1035,14 +1033,14 @@ keybindings:
         placeInverse: 반대 방향으로 벨트 배치
 
 about:
-    title: 정보
+    title: 게임 정보
     body: >-
         이 게임은 오픈소스이고, <a href="https://github.com/tobspr" target="_blank">Tobias
         Springer</a>가 개발했습니다.<br><br>
 
-        이 게임을 위해 이바지하고 싶다면, <a href="<githublink>" target="_blank">shapez.io on github</a>를 확인하세요.<br><br>
+        이 게임을 위해 기여하고 싶다면, <a href="<githublink>" target="_blank">shapez.io on github</a>를 확인하세요.<br><br>
 
-        이 게임은 디스코드 커뮤니티의 공헌이 없었다면 불가능했을 것입니다. 우리 디스코드 커뮤니티에 꼭 참여해주세요! <a href="<discordlink>" target="_blank">디스코드 서버</a>!<br><br>
+        이 게임은 Discord 커뮤니티의 공헌이 없었다면 불가능했을 것입니다. 우리 Discord 커뮤니티에 꼭 참여해주세요! <a href="<discordlink>" target="_blank">Discord 서버</a>!<br><br>
 
         사운드 트랙 제작자는 <a href="https://soundcloud.com/pettersumelius" target="_blank">Peppsen</a>입니다. - 킹갓제너럴 Peppsen!<br><br>
 
@@ -1116,4 +1114,3 @@ tips:
     - F4 키를 누르면 FPS와 틱 비율을 표시합니다.
     - F4 키를 두번 누르면 마우스와 카메라의 타일을 표시합니다.
     - 왼쪽에 고정된 도형을 클릭하여 고정을 해제할 수 있습니다.
-    
