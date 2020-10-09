@@ -311,7 +311,7 @@ ingame:
         black: 검은색
         uncolored: 회색
     shapeViewer:
-        title: 층
+        title: 레이어
         empty: 비었음
         copyKey: 키 복사하기
     connectedMiners:
