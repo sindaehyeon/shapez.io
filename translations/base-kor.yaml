@@ -317,7 +317,7 @@ ingame:
     connectedMiners:
         one_miner: 추출기 1 개
         n_miners: 추출기 <amount>개
-        limited_items: <max_throughput>개로 제한됨
+        limited_items: <max_throughput>까지가 한계임
     watermark:
         title: 체험판 버전
         desc: 정식 버전의 장점을 보려면 여기를 클릭하세요!
