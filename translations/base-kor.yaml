@@ -466,7 +466,7 @@ buildings:
             description: 두 전선이 서로 연결되지 않고 교차할 수 있도록 합니다.
     constant_signal:
         default:
-            name: 일정 신호
+            name: 일정 신호기
             description: 모양, 색상, 또는 불 값 (1 또는 0) 상수 신호를 방출합니다.
     lever:
         default:
@@ -631,9 +631,9 @@ storyRewards:
         desc: "<strong>디스플레이</strong>가 잠금 해제되었습니다! 이제 신호를 전선 레이어에 연결해 시각화할 수
             있습니다.<br><br> 추신: 벨트 판독기와 저장고가 마지막으로 읽은 아이템을 출력했나요? 디스플레이로 한번 봐보세요!"
     reward_constant_signal:
-        title: 일정 신호
-        desc: 전선 레이어에서 구축할 수 있는 <strong>일정 신호</strong>가 잠금 해제되었습니다! 간단한 예시로, <strong>아이템
-            선별</strong>에 연결하여 사용하는 데 유용합니다.<br><br> 일정 신호는 <strong>도형</strong>,
+        title: 일정 신호기
+        desc: 전선 레이어에서 구축할 수 있는 <strong>일정 신호기</strong>가 잠금 해제되었습니다! 간단한 예시로, <strong>아이템
+            선별</strong>에 연결하여 사용하는 데 유용합니다.<br><br> 일정 신호기는 <strong>도형</strong>,
             <strong>색상</strong>, <strong>불 값</strong> (1 또는 0)을 출력할 수 있습니다.
     reward_logic_gates:
         title: 논리 회로
@@ -862,7 +862,7 @@ keybindings:
         wire: 전선
         balancer: 밸런서
         storage: 저장고
-        constant_signal: 일정 신호
+        constant_signal: 일정 신호기
         logic_gate: 논리 회로
         lever: 레버
         filter: 선별기
