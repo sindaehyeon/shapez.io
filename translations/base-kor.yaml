@@ -285,7 +285,7 @@ ingame:
                 제거하세요.
             2_3_more_cutters: "잘하셨습니다! 느린 처리 속도를 보완하기 위해 <strong>절단기를 두 개</strong>
                 이상 배치해보세요!<br><br> 추신: <strong>상단 숫자 단축키 (0~9)</strong>를 사용하여
-                건물을 빠르게 선택할 수 있습니다!
+                건물을 빠르게 선택할 수 있습니다!"
             3_1_rectangles: "이제 사각형 도형을 추출해 볼까요! <strong>추출기 네 개를
                 배치</strong>하고 허브와 연결하세요.<br><br> 추신: 긴 벨트 한 줄을
                 간단히 만들려면 <strong>SHIFT 키</strong>를 누른 채 드래그하세요!"
@@ -436,10 +436,10 @@ buildings:
     wire:
         default:
             name: 전선
-            description: 아이템, 색상, 또는 불 값 (0 또는 1) 신호를 전송합니다. 색이 다른 전선끼리는 서로 연결되지 않습니다.
+            description: 아이템, 색상, 또는 불 값 (0 또는 1) 신호를 전송합니다. 색이 다른 전선은 서로 연결되지 않습니다.
         second:
             name: 전선
-            description: 아이템, 색상, 또는 불 값 (0 또는 1) 신호를 전송합니다. 색이 다른 전선끼리는 서로 연결되지 않습니다.
+            description: 아이템, 색상, 또는 불 값 (0 또는 1) 신호를 전송합니다. 색이 다른 전선은 서로 연결되지 않습니다.
     balancer:
         default:
             name: 밸런서
@@ -459,7 +459,7 @@ buildings:
     storage:
         default:
             name: 저장고
-            description: 아이템을 지정된 용량까지 저장합니다. 왼쪽 출력이 가장 우선되므로 오버 플로 회로로 사용할 수 있습니다.
+            description: 아이템을 지정된 용량까지 저장합니다. 왼쪽 출력이 가장 우선되므로 오버플로로 사용할 수 있습니다.
     wire_tunnel:
         default:
             name: 전선 교차기
@@ -593,10 +593,10 @@ storyRewards:
             출력이 우선되므로 <strong>오버플로 회로</strong>로도 활용될 수 있습니다!
     reward_freeplay:
         title: 자유플레이
-        desc: 드디어 해내셨군요! <strong>자유플레이 모드</strong>가 잠금 해제되었습니다! 이는 즉 앞으로 도형이
-            <strong>무작위</strong>로 생성됩니다.<br><br> 이제부터 허브는 <strong>처리량</strong>이
+        desc: 드디어 해내셨군요! <strong>자유플레이 모드</strong>가 잠금 해제되었습니다! 이제 앞으로 도형이
+            <strong>무작위</strong>로 생성됩니다.<br><br> 또한 허브는 <strong>처리량</strong>이
             필요하므로 요청하는 도형을 자동으로 전달하는 공장을 구축하는 것이 좋습니다.<br><br> 허브는 요청된 도형을 전선
-            레이어에서 출력하므로 이를 분석하고 기반으로 하여 공장을 자동으로 구성하기만 하면 됩니다.
+            레이어를 통해 내보내므로 이를 분석하는 구조를 기반으로 하여 공장을 자동으로 구성하기만 하면 됩니다.
     reward_blueprints:
         title: 청사진
         desc: 이제 공장의 일부를 <strong>복사하고 붙여넣는 기능</strong>을 사용할 수 있습니다! 영역을 선택 (CTRL 키를 누른 채
@@ -634,7 +634,7 @@ storyRewards:
         title: 일정 신호기
         desc: 전선 레이어에서 구축할 수 있는 <strong>일정 신호기</strong>가 잠금 해제되었습니다! 간단한 예시로, <strong>아이템
             선별</strong>에 연결하여 사용하는 데 유용합니다.<br><br> 일정 신호기는 <strong>도형</strong>,
-            <strong>색상</strong>, <strong>불 값</strong> (1 또는 0)을 출력할 수 있습니다.
+            <strong>색상</strong>, 또는 <strong>불 값</strong> (1 또는 0)을 출력할 수 있습니다.
     reward_logic_gates:
         title: 논리 회로
         desc: <strong>논리 회로</strong>가 잠금 해제되었습니다! 굳이 흥분할 필요는 없지만, 진짜 멋진 기술입니다!<br><br>
