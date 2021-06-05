@@ -391,7 +391,7 @@ ingame:
                 desc: 저는 여가 시간에 게임을 개발합니다!
             achievements:
                 title: 도전과제
-                desc: 모두 얻어보세요!
+                desc: 모두 달성해보세요!
     puzzleEditorSettings:
         zoneTitle: 존
         zoneWidth: 너비
